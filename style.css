@@ -41,6 +41,34 @@ main{
 	height: 60vh;
     border:1px solid black;
 }
+main .descricao h3{
+	background: blue;
+	color: white;
+	padding: 15px;
+	margin: 6px;
+}
+main .descricao p{
+	margin-top: 20px;
+	letter-spacing: 3px;
+	line-height: 25px;
+}
+main .descricao a {
+	background: blue;
+	color: white;
+	padding: 5px 15px;
+}
+main .bloco-principal{
+    width: 100%;
+}
+main .noticia{
+    width: 80%;
+    padding: 10px;
+    display:flex;
+}
+main .noticia img{
+    width:200px;
+    padding: 10px;
+}
 aside{
 	width: 20%;
 	height: 60vh;
