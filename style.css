@@ -1,5 +1,3 @@
-
-
 *{margin: 0; padding:0;}
 header{
 	width: 100%;
@@ -41,49 +39,39 @@ main{
 	height: 60vh;
     border:1px solid black;
 }
-main .descricao h3{
-	background: blue;
-	color: white;
-	padding: 15px;
-	margin: 6px;
-}
-main .descricao p{
-	margin-top: 20px;
-	letter-spacing: 3px;
-	line-height: 25px;
-	margin-bottom: 20px;
-}
-main .descricao a {
-	background: blue;
-	color: white;
-	padding: 5px 15px;
-	line-height: 50px;
-}
 main .bloco-principal{
     width: 100%;
+    padding: 20px;
 }
 main .noticia{
     width: 80%;
-    padding: 10px;
     display:flex;
+}
+main .noticia h3{
+    padding: 20px 0;
 }
 main .noticia img{
     width:200px;
-    padding: 10px;
+    padding: 15px;
+}
+main .noticia p{
+	margin-bottom: 15px;
+}
+main .noticia a{
+	background: blue;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 15px;
 }
 main .grid-3{
 	display: flex;
-	justify-content: space-around;
-	height: 300px;
-	
+	padding: 15px;
 }
 main .grid-3 .coluna{
 	width: 33%;
-	border: 1px solid black;
-	padding: 20px;
 }
 main .grid-3 .coluna img{
-	width: 70%;
+	width: 100%;
 }
 aside{
 	width: 20%;
@@ -95,3 +83,4 @@ footer{
 	height: 20vh;
 	background: black;
 }	
+
